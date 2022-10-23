@@ -31,8 +31,7 @@ class MyGreen extends CustomPainter {
       ..style = PaintingStyle.stroke
       ..strokeWidth = 10;
     smilePaint.color = const Color(0xFF408080);
-    // canvas.draw(Rect.fromCircle(center: center, radius: 40), 3.15, 3, false,
-    //     smilePaint);
+    // canvas.draw(Rect.fromCircle(center: center, radius: 40), 3.15, 3, false, smilePaint);
     Path path = Path();
     path.moveTo(size.width / 2.8, size.height / 1.5);
     path.quadraticBezierTo(150, 90, 180, 199);

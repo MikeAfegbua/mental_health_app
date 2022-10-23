@@ -28,7 +28,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<String> answer = ['Not good', 'Fine', 'Awesome'];
+  List<String> answer = ['Not good!', 'Fine!', 'Awesome!'];
   List<Color> col = [
     const Color(0xFF5BF0A0),
     Colors.blue.shade200,
